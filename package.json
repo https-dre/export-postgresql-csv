@@ -1,0 +1,22 @@
+{
+  "name": "export-csv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "https-dre",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "seed": "node --env-file .env.local src/db/seed.ts",
+    "dev": "node --env-file .env.local src/export.ts"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.5.2",
+    "postgres": "^3.4.5"
+  }
+}
