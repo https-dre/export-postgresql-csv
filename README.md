@@ -1,6 +1,4 @@
-Aqui está uma versão refinada da sua descrição, com melhor fluxo e clareza técnica:
-
----
+# POSTGRESQL EXPORT TO CSV
 
 ### **Exportação Eficiente de Dados para CSV via Streams**  
 
